@@ -8,6 +8,21 @@ font-family: 'Mynerve';
 }
 
 img{ 
- margin-right:25px;
+ display: block;
+ margin-right: 30px;
 }
 
+section{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+section h2 {
+width:fit-content;
+background-color:violet;
+}
+
+section div {
+  max-width: 50%;
+background-color: violet;
+}
